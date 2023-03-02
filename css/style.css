@@ -271,9 +271,19 @@ body {
     margin: 34px 21px;
 }
 
-.right-div-one h4 {
-    color: white;
+.set-head-one {
+    color: grey;
     margin: 63px -182px;
+}
+
+.set-head-two {
+    color: grey;
+    margin: 63px -226px;
+}
+
+.set-head-three {
+    color: grey;
+    margin: 63px -230px;
 }
 
 .img-left {
