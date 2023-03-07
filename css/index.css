@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAVIGATION BAR CSS */
+nav {
+    background-color: #1864b0;
+    height: 72px;
+}
+
+.navigation img {
+    width: 123px;
+    height: 65px;
+    position: absolute;
+    top: 3px;
+    left: 90px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 120px;
+    top: 23px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 2px 14px;
+}
+
+/* BANNER SECTION CSS */
+.banner {
+    background-color: #317CC6;
+}
+
+.banner img {
+    height: 720px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.banner h1 {
+    color: white;
+    position: absolute;
+    top: 272px;
+    left: 452px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 58px;
+    text-align: center;
+}
+
+.banner hr {
+    position: absolute;
+    top: 419px;
+    left: 741px;
+    width: 157px;
+    padding: 1px;
+    background-color: white;
+}
+
+.banner p {
+    color: white;
+    position: absolute;
+    top: 456px;
+    left: 489px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* ABOUT SECTION CSS */
+
+.about {
+    display: flex;
+}
+
+.about-left {
+    margin: 200px 0px;
+    padding: 40px 60px;
+}
+
+.about-left h1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 80px;
+    text-transform: capitalize;
+}
+
+.about-left p {
+    font-family: 'Raleway';
+    line-height: 28px;
+    width: 572px;
+}
+
+.about-right img {
+    width: 586px;
+    margin-top: 186px;
+    margin-left: 201px;
+}
+
+/* EXPERTISE SECTION CSS */
+.expertise {
+    height: 600px;
+}
+
+.top-expertise img {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.img-one {
+    width: 100px;
+    height: 100px;
+    left: 72px;
+    top: 1549px;
+}
+
+.img-two {
+    width: 50px;
+    height: 50px;
+    left: 128px;
+    top: 1542px;
+}
+
+.img-three {
+    width: 100px;
+    height: 100px;
+    left: 26px;
+    top: 1613px;
+}
+
+.img-four {
+    width: 100px;
+    height: 100px;
+    left: 128px;
+    top: 1603px;
+}
+
+.img-five {
+    width: 50px;
+    height: 50px;
+    left: 120px;
+    top: 1659px;
+}
+
+.img-six {
+    width: 100px;
+    height: 100px;
+    left: 62px;
+    top: 1686px;
+}
+
+.img-seven {
+    width: 50px;
+    height: 50px;
+    left: 137px;
+    top: 1702px;
+}
+
+.top-expertise h1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 80px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
+
+.top-expertise p {
+    text-align: center;
+    font-size: 17px;
+}
+
+/* SLIDER CSS */
+
+.slider-section {
+    background-color: #317CC6;
+    opacity: 0.7;
+    height: 490px;
+    border-radius: 22% 22% 0% 0%;
+}
+
+.top-slider {
+    background: url("../img/Rectangle\ 41.png");
+    /* position: absolute;
+    top: 276%; */
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: -12px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    left: 11px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex !important;
+}
+
+.slider-img-one {
+    width: 20%;
+    position: absolute;
+    top: 160px;
+    right: 1042px;
+}
+
+.slider-img-two {
+    width: 40%;
+    position: relative;
+    right: -3px;
+}
+
+.slider-img-three {
+    width: 20%;
+    position: absolute;
+    top: 160px;
+    right: 218px;
+}
+
+.slider-img-one:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out;
+}
+
+.slider-img-one:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.slider-img-two:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out;
+}
+
+.slider-img-two:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.slider-img-three:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out;
+}
+
+.slider-img-three:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.carousel-indicators {
+    top: 68%;
+}
+
+.carousel-inner {
+    top: -312px;
+}
+
+
+@media screen and (min-width: 1092px) and (max-width: 1564px) {
+    .about-right img {
+        width: 378px;
+        margin-top: 292px;
+        margin-left: 56px;
+    }
+
+    .about-left {
+        padding: 0px 19px;
+    }
+
+    .navigation ul {
+        right: 6px;
+    }
+
+    .banner h1 {
+        left: 300px;
+    }
+
+    .banner hr {
+        left: 618px;
+    }
+
+    .banner p {
+        left: 322px;
+    }
+
+    .top-expertise img {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .slider-img-one {
+        top: 145px;
+        right: 724px;
+    }
+
+    .slider-img-two {
+        right: 7px;
+        top: 25px;
+    }
+
+    .slider-img-three {
+        right: 170px;
+        top: 142px;
+    }
+}
