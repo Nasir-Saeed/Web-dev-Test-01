@@ -215,21 +215,22 @@ nav {
 .slider-img-one {
     width: 20%;
     position: absolute;
-    top: 160px;
-    right: 1042px;
+    top: 143px;
+    right: 849px;
 }
 
 .slider-img-two {
     width: 40%;
     position: relative;
-    right: -3px;
+    right: -1px;
+    top: 7px;
 }
 
 .slider-img-three {
     width: 20%;
     position: absolute;
-    top: 160px;
-    right: 218px;
+    top: 136px;
+    right: 186px;
 }
 
 .slider-img-one:hover {
